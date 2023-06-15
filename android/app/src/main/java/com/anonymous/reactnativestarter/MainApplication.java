@@ -1,4 +1,4 @@
-package com.reactnativestarter;
+package com.anonymous.reactnativestarter;
 
 import android.app.Application;
 import android.content.res.Configuration;

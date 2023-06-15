@@ -1,4 +1,4 @@
-package com.reactnativestarter;
+package com.anonymous.reactnativestarter;
 
 import android.os.Build;
 import android.os.Bundle;
