@@ -6,7 +6,7 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios --simulator=\"iPhone 14\"",
     "lint": "eslint .",
-    "start": "react-native start",
+    "start": "expo start --dev-client",
     "test": "jest"
   },
   "dependencies": {
@@ -14,7 +14,7 @@
     "@thirdweb-dev/react-native": "0.2.14",
     "@thirdweb-dev/react-native-compat": "0.2.14",
     "ethers": "^5",
-    "expo": "^48.0.0",
+    "expo": "~48.0.18",
     "node-libs-browser": "^2.2.1",
     "react": "18.2.0",
     "react-native": "0.71.8",
@@ -22,7 +22,9 @@
     "react-native-get-random-values": "^1.9.0",
     "react-native-mmkv": "^2.8.0",
     "react-native-randombytes": "^3.6.1",
-    "react-native-svg": "^13.9.0"
+    "react-native-svg": "^13.9.0",
+    "expo-splash-screen": "~0.18.2",
+    "expo-status-bar": "~1.4.4"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

@@ -1,4 +1,10 @@
 {
   "name": "reactnativestarter",
-  "displayName": "React Native Starter"
+  "displayName": "React Native Starter",
+  "android": {
+    "package": "com.anonymous.reactnativestarter"
+  },
+  "ios": {
+    "bundleIdentifier": "com.anonymous.reactnativestarter"
+  }
 }
